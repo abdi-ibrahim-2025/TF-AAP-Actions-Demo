@@ -1,6 +1,6 @@
 # Configure the AWS provider
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
 # Configure the AAP provider
@@ -97,7 +97,7 @@ resource "aws_security_group" "allow_http_ssh" {
 # 1. Provision the AWS EC2 instance(s)
 resource "aws_instance" "web_server" {
   count                     = 0
-  ami                       = "ami-0dfc569a8686b9320" # Red Hat Enterprise Linux 9 (HVM)
+  ami                       = "ami-022daef1002763216" # Red Hat Enterprise Linux 9 (HVM)
   instance_type             = "t2.micro"
   key_name                  = var.ssh_key_name
   vpc_security_group_ids    = [aws_security_group.allow_http_ssh.id]

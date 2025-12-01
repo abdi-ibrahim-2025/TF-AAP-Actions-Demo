@@ -13,9 +13,7 @@ Before starting, ensure you have access to the following:
 - **Ansible Automation Platform (AAP)**: Set up an AAP sandbox using the [30-day trial](https://developers.redhat.com/developer-sandbox)
 - **HCP Terraform**: Active account with workspace creation permissions
 - **AWS Account**: With permissions to create EC2 instances, security groups, and key pairs
-- **GitHub Repository**: Fork this repository to your own account for customization ([original repo](https://github.com/HichamMourad/TF-AAP-Actions-Demo/tree/main))
-
-> **Note**: This repository is maintained by Hicham Mourad, Red Hat Technical Marketing. You should fork the repository if you're creating your own demo to maintain independent control.
+- **GitHub Repository**: Fork this repository to your own account for customization 
 
 ## Phase 1: AWS and AAP Setup (Prerequisites)
 
